@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { Filters, ProductList, Sort, PageHero } from '../components'
 
-const ProductsPage = () => {
+const ContactPage = () => {
   return (
     <main>
       <PageHero title='products' />
@@ -32,4 +32,4 @@ const Wrapper = styled.div`
   }
 `
 
-export default ProductsPage
+export default ContactPage

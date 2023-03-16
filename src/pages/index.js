@@ -1,5 +1,5 @@
 import Home from './HomePage'
-import Products from './ProductsPage'
+import Contact from './ContactPage'
 import SingleProduct from './SingleProductPage'
 import About from './AboutPage'
 import Cart from './CartPage'
@@ -10,7 +10,7 @@ import AuthWrapper from './AuthWrapper'
 
 export {
   Home,
-  Products,
+  Contact,
   SingleProduct,
   About,
   Cart,

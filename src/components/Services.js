@@ -1,38 +1,43 @@
-import React from 'react'
-import styled from 'styled-components'
-import { services } from '../utils/constants'
+import React from "react";
+import styled from "styled-components";
+import { services } from "../utils/constants";
 
 const Services = () => {
   return (
     <Wrapper>
-      <div className='section-center'>
-        <article className='header'>
+      <div className="section-center">
+        <article className="header">
           <h3>
-            custom furniture <br />
-            built only for you
+            Our vision <br />
+            and future goals
           </h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-            quisquam saepe id reiciendis sunt, repudiandae libero amet rem quia
-            quod?
+            We want to create an environment where dry cleaners can publish
+            services and customers order a service.
           </p>
         </article>
-        <div className='services-center'>
-          {services.map((service) => {
-            const { id, icon, title, text } = service
+        <div className="services-center">
+          {services.map(service => {
+            const { id, icon, title, text } = service;
             return (
-              <article key={id} className='service'>
-                <span className='icon'>{icon} </span>
-                <h4>{title}</h4>
-                <p>{text}</p>
+              <article key={id} className="service">
+                <span className="icon">
+                  {icon}{" "}
+                </span>
+                <h4>
+                  {title}
+                </h4>
+                <p>
+                  {text}
+                </p>
               </article>
-            )
+            );
           })}
         </div>
       </div>
     </Wrapper>
-  )
-}
+  );
+};
 
 const Wrapper = styled.section`
   h3,
@@ -96,5 +101,5 @@ const Wrapper = styled.section`
       transform: translateY(5rem);
     }
   }
-`
-export default Services
+`;
+export default Services;

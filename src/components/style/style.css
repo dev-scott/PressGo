@@ -1,0 +1,25 @@
+.logoPress{
+
+  
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+
+}
+
+.LogoPress{
+
+    text-decoration: none;
+    color: var(--clr-primary-5);
+    background-color: rgb(42, 40, 37);
+    padding: 5px 15px;
+    font-size: 30px;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+}
